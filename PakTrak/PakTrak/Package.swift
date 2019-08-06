@@ -20,13 +20,14 @@ public class Package {
         self.sender = sender
     }
     
+    //Generates a number of placeholder instances of Package to fill the table
     public static func placeholderData(amount:Int) -> [Package]{
         var packages:[Package] = []
         var senders = ["Amazon","Walmart","Americanas"]
         
         for i in 0..<amount {
             let senderRng = Int.random(in: 0..<senders.count)
-            let dateRng = Int.random(in: 1...180)
+            let dateRng = Int.random(in: -100...100)
             let id = Int.random(in: 143...879)
             packages.append(Package(id: id, date: Date().addingTimeInterval(TimeInterval(dateRng * 86400)), sender: senders[senderRng]))
         }

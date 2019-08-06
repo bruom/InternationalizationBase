@@ -5,7 +5,8 @@
   Created by Bruno Omella Mainieri on 05/08/19.
   Copyright © 2019 Bruno Omella Mainieri. All rights reserved.
 */
-
-"My Packages" = "Meus Pacotes";
+"Arrived on %@" = "Chegou em %@";
 "Package #%d from %@" = "Pacote #%d de %@";
 "Arrives on %@ (in %d days)" = "Chega em %@ (daqui a %d dias)";
+"closedBox" = "closed br";
+"openBox" = "open br";
