@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAA1788022F860D300EEE01A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA1787F22F860D300EEE01A /* AppDelegate.swift */; };
+		AAA1788522F860D300EEE01A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA1788322F860D300EEE01A /* Main.storyboard */; };
+		AAA1788722F860D500EEE01A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA1788622F860D500EEE01A /* Assets.xcassets */; };
+		AAA1788A22F860D500EEE01A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA1788822F860D500EEE01A /* LaunchScreen.storyboard */; };
+		AAA1789222F8622300EEE01A /* PackagesTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA1789122F8622300EEE01A /* PackagesTVC.swift */; };
+		AAA1789422F8632B00EEE01A /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA1789322F8632B00EEE01A /* Package.swift */; };
+		AAA1789622F8671900EEE01A /* PackageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA1789522F8671900EEE01A /* PackageCell.swift */; };
+		AAA1789B22F8797200EEE01A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AAA1789D22F8797200EEE01A /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AAA1787C22F860D300EEE01A /* PakTrak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PakTrak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAA1787F22F860D300EEE01A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAA1788422F860D300EEE01A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAA1788622F860D500EEE01A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAA1788922F860D500EEE01A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAA1788B22F860D500EEE01A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAA1789122F8622300EEE01A /* PackagesTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackagesTVC.swift; sourceTree = "<group>"; };
+		AAA1789322F8632B00EEE01A /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		AAA1789522F8671900EEE01A /* PackageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackageCell.swift; sourceTree = "<group>"; };
+		AAA1789922F8790B00EEE01A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		AAA1789A22F8790B00EEE01A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		AAA1789C22F8797200EEE01A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AAA1789E22F8797700EEE01A /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAA1787922F860D300EEE01A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAA1787322F860D300EEE01A = {
+			isa = PBXGroup;
+			children = (
+				AAA1787E22F860D300EEE01A /* PakTrak */,
+				AAA1787D22F860D300EEE01A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAA1787D22F860D300EEE01A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAA1787C22F860D300EEE01A /* PakTrak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAA1787E22F860D300EEE01A /* PakTrak */ = {
+			isa = PBXGroup;
+			children = (
+				AAA1789D22F8797200EEE01A /* Localizable.strings */,
+				AAA1787F22F860D300EEE01A /* AppDelegate.swift */,
+				AAA1788322F860D300EEE01A /* Main.storyboard */,
+				AAA1788622F860D500EEE01A /* Assets.xcassets */,
+				AAA1788822F860D500EEE01A /* LaunchScreen.storyboard */,
+				AAA1788B22F860D500EEE01A /* Info.plist */,
+				AAA1789122F8622300EEE01A /* PackagesTVC.swift */,
+				AAA1789322F8632B00EEE01A /* Package.swift */,
+				AAA1789522F8671900EEE01A /* PackageCell.swift */,
+			);
+			path = PakTrak;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAA1787B22F860D300EEE01A /* PakTrak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA1788E22F860D500EEE01A /* Build configuration list for PBXNativeTarget "PakTrak" */;
+			buildPhases = (
+				AAA1787822F860D300EEE01A /* Sources */,
+				AAA1787922F860D300EEE01A /* Frameworks */,
+				AAA1787A22F860D300EEE01A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PakTrak;
+			productName = PakTrak;
+			productReference = AAA1787C22F860D300EEE01A /* PakTrak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAA1787422F860D300EEE01A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Bruno Omella Mainieri";
+				TargetAttributes = {
+					AAA1787B22F860D300EEE01A = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = AAA1787722F860D300EEE01A /* Build configuration list for PBXProject "PakTrak" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"pt-BR",
+			);
+			mainGroup = AAA1787322F860D300EEE01A;
+			productRefGroup = AAA1787D22F860D300EEE01A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAA1787B22F860D300EEE01A /* PakTrak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAA1787A22F860D300EEE01A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA1788A22F860D500EEE01A /* LaunchScreen.storyboard in Resources */,
+				AAA1789B22F8797200EEE01A /* Localizable.strings in Resources */,
+				AAA1788722F860D500EEE01A /* Assets.xcassets in Resources */,
+				AAA1788522F860D300EEE01A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAA1787822F860D300EEE01A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAA1789622F8671900EEE01A /* PackageCell.swift in Sources */,
+				AAA1789422F8632B00EEE01A /* Package.swift in Sources */,
+				AAA1789222F8622300EEE01A /* PackagesTVC.swift in Sources */,
+				AAA1788022F860D300EEE01A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAA1788322F860D300EEE01A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAA1788422F860D300EEE01A /* Base */,
+				AAA1789922F8790B00EEE01A /* pt-BR */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAA1788822F860D500EEE01A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAA1788922F860D500EEE01A /* Base */,
+				AAA1789A22F8790B00EEE01A /* pt-BR */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AAA1789D22F8797200EEE01A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAA1789C22F8797200EEE01A /* en */,
+				AAA1789E22F8797700EEE01A /* pt-BR */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAA1788C22F860D500EEE01A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAA1788D22F860D500EEE01A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAA1788F22F860D500EEE01A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GT48V5L69E;
+				INFOPLIST_FILE = PakTrak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.mackmobile.PakTrak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AAA1789022F860D500EEE01A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GT48V5L69E;
+				INFOPLIST_FILE = PakTrak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.mackmobile.PakTrak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAA1787722F860D300EEE01A /* Build configuration list for PBXProject "PakTrak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA1788C22F860D500EEE01A /* Debug */,
+				AAA1788D22F860D500EEE01A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAA1788E22F860D500EEE01A /* Build configuration list for PBXNativeTarget "PakTrak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA1788F22F860D500EEE01A /* Debug */,
+				AAA1789022F860D500EEE01A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAA1787422F860D300EEE01A /* Project object */;
+}
